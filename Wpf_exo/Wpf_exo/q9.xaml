@@ -6,8 +6,19 @@
              xmlns:local="clr-namespace:Wpf_exo"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Grid Name="tableau">
-        <Grid.ColumnDefinitions>
+    <Grid Name="tableau"> 
+      <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
             <ColumnDefinition/>
             <ColumnDefinition/>
             <ColumnDefinition/>
@@ -19,10 +30,24 @@
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <Button Name="first" >0,0</Button>
-        <Button Name="second" Grid.Column="1" Grid.Row="1" >1,1</Button>
-        <Button Name="third" Grid.Column="0" Grid.Row="2" >0,2</Button>
-        <Button Name="fourth"  Grid.Column="2" Grid.Row="2" Grid.ColumnSpan="2">2,2</Button>
-        <Button Name="fifth"  Grid.Column="3" Grid.Row="3">3,3</Button>
+        <Button Content="0, 0, RowSpan 3" Grid.Column="0" Grid.Row="0" Grid.RowSpan="3"/>
+        <Button Content="0, 3, ColumnSpan 3" Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="3"/>
+        <Button Content="2, 0, RowSpan 3" Grid.Column="2" Grid.Row="0" Grid.RowSpan="3"/>
+
+        <Button Content="4, 0, RowSpan 3" Grid.Column="4" Grid.Row="0" Grid.RowSpan="3"/>
+        <Button Content="4, 3, ColumnSpan 3" Grid.Column="4" Grid.Row="3" Grid.ColumnSpan="3"/>
+        <Button Content="5, 0, ColumnSpan 2" Grid.Column="5" Grid.Row="0" Grid.ColumnSpan="2"/>
+        <Button Content="6, 2" Grid.Column="6" Grid.Row="2"/>
+
+        <Button Content="8, 0, RowSpan 3" Grid.Column="8" Grid.Row="0" Grid.RowSpan="3"/>
+        <Button Content="8, 3, ColumnSpan 3" Grid.Column="8" Grid.Row="3" Grid.ColumnSpan="3"/>
+        <Button Content="10, 0, RowSpan 3" Grid.Column="10" Grid.Row="0" Grid.RowSpan="3"/>
+
+        <Button Content="12, 0, RowSpan 4" Grid.Column="12" Grid.Row="0" Grid.RowSpan="4"/>
+        <Button Content="13, 0, ColumnSpan 2" Grid.Column="13" Grid.Row="0" Grid.ColumnSpan="2"/>
+        <Button Content="14, 1" Grid.Column="14" Grid.Row="1"/>
+        <Button Content="13, 2" Grid.Column="13" Grid.Row="2"/>
+        <Button Content="13, 2" Grid.Column="14" Grid.Row="3"/>
+        
     </Grid>
 </UserControl>
