@@ -1,0 +1,24 @@
+﻿<Window x:Class="Wpf_exo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_exo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <Button Name="q1" Click="q1_Click">Q1</Button>
+        <Button Name="q2" Click="q1_Click">Q2</Button>
+        <Button Name="q3" Click="q1_Click">Q3</Button>
+        <Button Name="clear" Click="q1_Click">Clear</Button>
+        <Button Name="image" Click="q1_Click"><ContentControl.Content>
+                <Grid>
+            <Image Stretch="None" Source="https://image.freepik.com/icones-gratuites/inclinee-guitare_318-99066.jpg"/>
+            <TextBlock>Test</TextBlock></Grid>
+</ContentControl.Content>
+        </Button>
+
+
+                <ContentControl Name="Main"></ContentControl>
+    </StackPanel>
+</Window>
