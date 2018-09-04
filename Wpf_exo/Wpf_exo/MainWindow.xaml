@@ -7,18 +7,25 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <StackPanel Name="fenetre">
-        <Button Name="q1" Click="q1_Click">Q1</Button>
-        <Button Name="q2" Click="q1_Click">Q2</Button>
-        <Button Name="q3" Click="q1_Click">Q3</Button>
-        <Button Name="q4" Click="q1_Click">Q4</Button>
-        <Button Name="q5" Click="q1_Click">Q5</Button>
-        <Button Name="q6" Click="q1_Click">Q6</Button>
-        <Button Name="q7" Click="q1_Click">Q7</Button>
-        <Button Name="q8" Click="q1_Click">Q8</Button>
-        <Button Name="q9" Click="q1_Click">Q9</Button>
-        <Button Name="q10" Click="q1_Click">Q10</Button>
-        <Button Name="clear" Click="q1_Click">Clear</Button>
-       
-                <ContentControl Name="Main"></ContentControl>
+        <StackPanel.Background>
+            <RadialGradientBrush>
+                <GradientStop Color="Black" Offset="1"/>
+                <GradientStop Color="#FF7CD497"/>
+            </RadialGradientBrush>
+        </StackPanel.Background>
+        
+        <Button Name="clear" Click="q1_Click" Width="100" Margin="5">Clear</Button>
+        <Button Name="q1" Click="q1_Click" Width="100" Margin="5">Q1</Button>
+        <Button Name="q2" Click="q1_Click" Width="100" Margin="5">Q2</Button>
+        <Button Name="q3" Click="q1_Click" Width="100" Margin="5">Q3</Button>
+        <Button Name="q4" Click="q1_Click" Width="100" Margin="5">Q4</Button>
+        <Button Name="q5" Click="q1_Click" Width="100" Margin="5">Q5</Button>
+        <Button Name="q7" Click="q1_Click" Width="100" Margin="5">Q7</Button>
+        <Button Name="q8" Click="q1_Click" Width="100" Margin="5">Q8</Button>
+        <Button Name="q6" Click="q1_Click" Width="100" Margin="5">Q6</Button>
+        <Button Name="q9" Click="q1_Click" Width="100" Margin="5">Q9</Button>
+        <Button Name="q10" Click="q1_Click" Width="100" Margin="5">Q10</Button>
+
+        <ContentControl Name="Main"></ContentControl>
     </StackPanel>
 </Window>
