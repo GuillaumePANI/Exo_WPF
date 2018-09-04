@@ -43,6 +43,12 @@ namespace Wpf_exo
                 Main.Content = new q6();
             else if (((Button)sender).Name.Equals("q7"))
                 Main.Content = new q7();
+            else if (((Button)sender).Name.Equals("q8"))
+                Main.Content = new q8();
+            else if (((Button)sender).Name.Equals("q9"))
+                Main.Content = new q9();
+            else if (((Button)sender).Name.Equals("q10"))
+                Main.Content = new q10();
         }
     }
 }

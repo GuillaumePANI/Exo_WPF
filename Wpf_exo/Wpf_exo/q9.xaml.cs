@@ -16,22 +16,13 @@ using System.Windows.Shapes;
 namespace Wpf_exo
 {
     /// <summary>
-    /// Interaction logic for q7.xaml
+    /// Interaction logic for q9.xaml
     /// </summary>
-    public partial class q7 : UserControl
+    public partial class q9 : UserControl
     {
-        public q7()
+        public q9()
         {
             InitializeComponent();
-            for (int i = 0; i < 5; i++)
-            {
-                ListBoxItem item = new ListBoxItem();
-                item.Content = i;
-                liste.Items.Add(item);
-            }
-            Image image = new Image();
-            image.Source = new BitmapImage(new Uri("https://image.freepik.com/icones-gratuites/inclinee-guitare_318-99066.jpg"));
-            liste.Items.Add(image);
         }
     }
 }
