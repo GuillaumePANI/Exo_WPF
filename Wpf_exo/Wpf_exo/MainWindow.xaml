@@ -6,19 +6,16 @@
         xmlns:local="clr-namespace:Wpf_exo"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <StackPanel>
+    <StackPanel Name="fenetre">
         <Button Name="q1" Click="q1_Click">Q1</Button>
         <Button Name="q2" Click="q1_Click">Q2</Button>
         <Button Name="q3" Click="q1_Click">Q3</Button>
+        <Button Name="q4" Click="q1_Click">Q4</Button>
+        <Button Name="q5" Click="q1_Click">Q5</Button>
+        <Button Name="q6" Click="q1_Click">Q6</Button>
+        <Button Name="q7" Click="q1_Click">Q7</Button>
         <Button Name="clear" Click="q1_Click">Clear</Button>
-        <Button Name="image" Click="q1_Click"><ContentControl.Content>
-                <Grid>
-            <Image Stretch="None" Source="https://image.freepik.com/icones-gratuites/inclinee-guitare_318-99066.jpg"/>
-            <TextBlock>Test</TextBlock></Grid>
-</ContentControl.Content>
-        </Button>
-
-
+       
                 <ContentControl Name="Main"></ContentControl>
     </StackPanel>
 </Window>

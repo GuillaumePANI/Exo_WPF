@@ -16,20 +16,18 @@ using System.Windows.Shapes;
 namespace Wpf_exo
 {
     /// <summary>
-    /// Interaction logic for q1.xaml
+    /// Interaction logic for q6.xaml
     /// </summary>
-    public partial class q1 : UserControl
+    public partial class q6 : UserControl
     {
-        public q1()
+        public q6()
         {
             InitializeComponent();
+            TextBox textbox = new TextBox();
+            textbox.Text = "Hello";
 
-
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            MessageBox.Show("hello");
+            main.Children.Add(textbox);
+            
         }
     }
 }

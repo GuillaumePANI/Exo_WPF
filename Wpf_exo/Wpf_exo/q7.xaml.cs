@@ -16,20 +16,19 @@ using System.Windows.Shapes;
 namespace Wpf_exo
 {
     /// <summary>
-    /// Interaction logic for q1.xaml
+    /// Interaction logic for q7.xaml
     /// </summary>
-    public partial class q1 : UserControl
+    public partial class q7 : UserControl
     {
-        public q1()
+        public q7()
         {
             InitializeComponent();
-
-
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            MessageBox.Show("hello");
+            for (int i = 0; i < 5; i++)
+            {
+                ListBoxItem item = new ListBoxItem();
+                item.Content = i;
+                liste.Items.Add(item);
+            }
         }
     }
 }

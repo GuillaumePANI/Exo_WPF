@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="Wpf_exo.q5"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Wpf_exo"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <StackPanel Orientation="Horizontal">
+            <Label Content="Faites votre choix : "></Label>
+            <RadioButton VerticalAlignment="Center" Name="choix1">choix 1</RadioButton>
+            <RadioButton VerticalAlignment="Center" Name="choix2">choix 2</RadioButton>
+            <RadioButton VerticalAlignment="Center" Name="choix3">choix 3</RadioButton>
+            <RadioButton VerticalAlignment="Center" Name="choix4">choix 4</RadioButton>
+            <RadioButton VerticalAlignment="Center" Name="choix5">choix 5</RadioButton>
+        </StackPanel>
+    </Grid>
+</UserControl>

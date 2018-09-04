@@ -65,6 +65,18 @@
     <Compile Include="q3.xaml.cs">
       <DependentUpon>q3.xaml</DependentUpon>
     </Compile>
+    <Compile Include="q4.xaml.cs">
+      <DependentUpon>q4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="q5.xaml.cs">
+      <DependentUpon>q5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="q6.xaml.cs">
+      <DependentUpon>q6.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="q7.xaml.cs">
+      <DependentUpon>q7.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -86,6 +98,22 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="q3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="q4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="q5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="q6.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="q7.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
