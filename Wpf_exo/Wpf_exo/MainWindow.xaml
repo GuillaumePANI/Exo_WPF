@@ -14,7 +14,6 @@
             </RadialGradientBrush>
         </StackPanel.Background>
         
-        <Button Name="clear" Click="q1_Click" Width="100" Margin="5">Clear</Button>
         <Button Name="q1" Click="q1_Click" Width="100" Margin="5">Q1</Button>
         <Button Name="q2" Click="q1_Click" Width="100" Margin="5">Q2</Button>
         <Button Name="q3" Click="q1_Click" Width="100" Margin="5">Q3</Button>
@@ -25,6 +24,7 @@
         <Button Name="q6" Click="q1_Click" Width="100" Margin="5">Q6</Button>
         <Button Name="q9" Click="q1_Click" Width="100" Margin="5">Q9</Button>
         <Button Name="q10" Click="q1_Click" Width="100" Margin="5">Q10</Button>
+        <Button Name="clear" Click="q1_Click" Width="100" Margin="5">Clear</Button>
 
         <ContentControl Name="Main"></ContentControl>
     </StackPanel>
