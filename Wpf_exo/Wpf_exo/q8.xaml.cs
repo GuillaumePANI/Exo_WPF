@@ -26,13 +26,19 @@ namespace Wpf_exo
             ComboBox combo = new ComboBox();
             combo.Items.Add(new ComboBoxItem() { Content = "test", IsSelected = true, IsEnabled = false });
             main.Children.Add(combo);
-            for (int i = 0; i < 5; i++)
+            int j = 1;
+            int k = 1;
+            for (int i = 1; i < 100; i=j+k)
             {
+                j = k;
                 ComboBoxItem item = new ComboBoxItem();
                 item.Content = i;
                 combo.Items.Add(item);
+                
+                k = i;
+            
             }
-
+           
         }
     }
 }
